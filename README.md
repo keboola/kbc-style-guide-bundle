@@ -1,10 +1,6 @@
-# Bootstrap Documentation example made in SourceJS
+# Keboola Connection Style Guide
 
-Copy of [Bootstrap documentation](http://getbootstrap.com/components), made by using SourceJS native features: EJS includes, Markdown, catalog system, search, clarify for testing examples standalone.
-
-[**View it in SourceJS**](https://sourcejs.com/specs/example-bootstrap-bundle)
-
-Compatible with SourceJS 0.5.1+.
+Made with [SourceJS](https://sourcejs.com).
 
 ## Setup Instructions
 
@@ -13,14 +9,14 @@ Compatible with SourceJS 0.5.1+.
 
 ```
 cd sourcejs/user/specs
-git clone https://github.com/sourcejs/example-bootstrap-bundle
+git clone git@github.com:keboola/kbc-style-guide-bundle.git
 ```
 
-* Run `bower install` in `sourcejs/user/specs/example-bootstrap-bundle`
-* Re-run SourceJS app, and open http://127.0.0.1:8080/specs/example-bootstrap-bundle:
+* Run `npm install` in `sourcejs/user/specs/kbc-style-guide-bundle`
+* Re-run SourceJS app, and open http://127.0.0.1:8080/specs/kbc-style-guide-bundle
 
 ```
 cd sourcejs
-node app.js
-open http://127.0.0.1:8080/specs/example-bootstrap-bundle
+npm start
+open http://127.0.0.1:8080/specs/kbc-style-guide-bundle
 ```
