@@ -1,4 +1,5 @@
-﻿<link rel="stylesheet" href="/build/assets/css/variables.css"/>
+﻿<link rel="stylesheet" href="../../../node_modules/kbc-bootstrap/dist/css/kbc.uncompressed.css"/>
+<link rel="stylesheet" href="../../../build/assets/css/sg.css"/>
 
 # Text
 Main text style

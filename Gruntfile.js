@@ -24,16 +24,6 @@ module.exports = function(grunt) {
                 files: {
                     "build/assets/css/sg.css": "assets/css/sg.less"
                 }
-            },
-            kbcBootstrap: {
-                files: [{
-                    expand: true,
-                    flatten: true,
-                    dest: 'build/assets/css',
-                    cwd: 'components',
-                    src: ['**/**/css/*.less'],
-                    ext: '.css'
-                }]
             }
         }
     });
